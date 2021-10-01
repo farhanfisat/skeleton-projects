@@ -6,6 +6,7 @@ app.get('/', (req, res) => {
   res.send('Welcome!')
 })
 app.get('/home', (req, res)=> {
+   console.log("homepage");
    res.send('Home');
 
 app.listen(port, () => {
