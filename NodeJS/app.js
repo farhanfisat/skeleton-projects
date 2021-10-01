@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 })
 app.get('/home', (req, res)=> {
    console.log("Routing to homepage");
-   res.send('Home');
+   res.send('Welcome Home!');
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
